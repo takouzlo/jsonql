@@ -22,11 +22,11 @@ pip install jsonql-db
 
 For the GUI browser (Flet-based):
 ``` bash
-    pip install "jsonql[browser]"
+    pip install "jsonql-db[browser]"
 
 Quick Start
 
-    import jsonql
+    import jsonql-db
 
     db = jsonql.connect("my_data")  # creates my_data/ folder
 
