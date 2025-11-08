@@ -17,7 +17,7 @@
 ## Install
 
 ``` bash
-    pip install jsonql
+pip install jsonql-db
 
 
 For the GUI browser (Flet-based):
