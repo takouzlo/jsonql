@@ -56,11 +56,13 @@ Launch the built-in browser:
 
 python -m jsonql.browser
 
-![JSONQL Browser](https://raw.githubusercontent.com/tonpseudo/jsonql-db/main/jqlFlet.png)
+![JSONQL Browser](https://raw.githubusercontent.com/takouzlo/jsonql-db/main/jqlFlet.png)
 
 
 🧠 Philosophy
+
 “If it’s not human-readable, it’s not transparent.”
+
 JSONQL-DB is for developers who value simplicity, portability, and control. 
 
 Perfect for:
@@ -75,30 +77,30 @@ Perfect for:
 MIT — see LICENSE
 
 # demo.py
-import jsonql
+    import jsonql
 
-def main():
-    db = jsonql.connect("demo_db")
-    
-    # Insert
-    dev_id = db.insert("devices", {
-        "name": "Epson L710U",
-        "type": "projector",
-        "room": "A101",
-        "ip": "192.168.10.50"
-    })
-    print(f"✅ Inserted device ID: {dev_id}")
+    def main():
+        db = jsonql.connect("demo_db")
+        
+        # Insert
+        dev_id = db.insert("devices", {
+            "name": "Epson L710U",
+            "type": "projector",
+            "room": "A101",
+            "ip": "192.168.10.50"
+        })
+        print(f"✅ Inserted device ID: {dev_id}")
 
-    # Select
-    devices = db.select("devices", {"room": "A101"})
-    print("🔍 Devices in A101:", devices)
+        # Select
+        devices = db.select("devices", {"room": "A101"})
+        print("🔍 Devices in A101:", devices)
 
-    # SQL Query
-    result = db.query("SELECT * FROM devices WHERE type = 'projector'")
-    print("💻 SQL Result:", result)
+        # SQL Query
+        result = db.query("SELECT * FROM devices WHERE type = 'projector'")
+        print("💻 SQL Result:", result)
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 
 
 
