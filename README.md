@@ -5,7 +5,7 @@
 
 ## 🖥️ Download for Windows (No Python needed)
 
-📥 [**JSONQL-DB v0.1.2 — Windows Standalone**](https://github.com/takouzlo/jsonql-db/releases/download/v0.1.3/JSONQL-DB_v0.1.3_Windows.zip)
+📥 [**JSONQL-DB v0.1.3 — Windows Standalone**](https://github.com/takouzlo/jsonql-db/releases/download/v0.1.3/JSONQL-DB_v0.1.3_Windows.zip)
 
 [![PyPI](https://img.shields.io/pypi/v/jsonql-db.svg)](https://pypi.org/project/jsonql-db/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
