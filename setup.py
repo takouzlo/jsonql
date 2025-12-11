@@ -2,11 +2,10 @@ from setuptools import setup, find_packages
 import pathlib
 
 HERE = pathlib.Path(__file__).parent
-README = (HERE / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="jsonql-db",
-    version="0.1.3",
+    version="0.1.4",
     description="A lightweight, file-based JSON database with SQL-like interface",
     long_description=open("README-pypi.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
