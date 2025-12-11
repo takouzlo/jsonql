@@ -61,7 +61,7 @@ GUI Browser
 
 Philosophy
 
-    “If it’s not human-readable, it’s not transparent.”
+    "If it’s not human-readable, it’s not transparent."
 
     JSONQL-DB is for developers who value simplicity, portability, and control. 
 
